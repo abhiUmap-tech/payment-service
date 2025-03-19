@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: payment-service
+
+  # MongoDB Atlas Connection
+  data:
+    mongodb:
+      uri: mongodb+srv://abhiumap31:RilGQicKUHIhUWuP@cluster0.2lirn.mongodb.net/order-service?retryWrites=true&w=majority&appName=Cluster0
+
+server:
+  port: 8082
+
+# Logging Level
+logging:
+  level:
+    '[org.springframework.data.mongodb.core]': DEBUG
